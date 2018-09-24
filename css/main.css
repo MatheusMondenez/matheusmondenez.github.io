@@ -1288,12 +1288,13 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   background: #f9f9ff;
   padding: 0 20px;
-  height: 100px;
+  height: 200px;
   resize: none;
 }
 
 .single-textarea:focus {
   outline: none;
+  border: 1px solid #8ab92d;
 }
 
 .single-input-primary {
@@ -2577,6 +2578,10 @@ h6 {
 }
 
 .footer-text a, .footer-text i {
+  color: #8ab92d;
+}
+
+.footer-text-about a, .footer-text-about i {
   color: #8ab92d;
 }
 
